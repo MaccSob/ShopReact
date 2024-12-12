@@ -1,11 +1,17 @@
 img {
     width: 100px;
 }
+
 ul {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
 }
 .nav__link {
-    color: white;
+    color: var(--title-color);
+ font-weight: var(--font-semi-bold);
+ transition: color 0.4s;
 }
+.nav__link:hover {
+    color: var(--first-color);
+   }
