@@ -1,18 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import Sidebar from './components/Sidebar/Sidebar.jsx'
 import Main from './components/Main/Main.jsx'
+import Header from './components/Header/Header.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
+    <Router>
+      <Header></Header>
     <>
-    <Sidebar></Sidebar>
     <Main></Main>
+       <Routes>
+       </Routes>
     </>
+      </Router>
   )
 }
 

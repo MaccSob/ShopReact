@@ -1,14 +1,13 @@
 import React from "react";
-import './Main.css'
-
-
+import './Main.css';
 
 const Main = () => {
 
     return (
         <>
-       <h1>Polska gurom Shop</h1>
-     
+            <h3>Welcome to PLG Shop!</h3>
+        
+        <section>Buy juices that you've never tried before!</section>
         </>
     )
 }

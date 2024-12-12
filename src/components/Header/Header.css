@@ -1,0 +1,11 @@
+img {
+    width: 100px;
+}
+ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    color: white;
+}
