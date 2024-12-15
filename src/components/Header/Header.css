@@ -6,7 +6,11 @@ ul {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    position: relative;
+ height: var(--header-height);
+ margin: 1rem;
 }
+
 .nav__link {
     color: var(--title-color);
  font-weight: var(--font-semi-bold);

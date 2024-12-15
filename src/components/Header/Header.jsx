@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <header className="header">
           <nav className="nav container">
-          <img src="src/assets/drink.svg" alt="" />
             <NavLink to="/" className="nav__logo">
+            <img src="src/assets/drink.svg" alt="" />
             </NavLink>
      
             <div
@@ -24,7 +24,7 @@ const Header = () => {
                 </li>
                 <li className="nav__item">
                   <NavLink
-                    to="/about-us"
+                    to="/browse"
                     className="nav__link"
                   >
                     Browse
@@ -32,14 +32,14 @@ const Header = () => {
                 </li>
                 <li className="nav__item">
                   <NavLink
-                    to="/favorite"
+                    to="/About"
                     className="nav__link"
                   >
                     About Us
                   </NavLink>
                 </li>
                 <li className="nav__item">
-                  <NavLink to="/get-started" className="nav__link nav__cta">
+                  <NavLink to="/contact" className="nav__link nav__cta">
                    Contact
                   </NavLink>
                 </li>
