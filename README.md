@@ -1,3 +1,3 @@
-# React + Vite
+# ReactInternetShopClone
 
-Shopping cart.
+Shop
