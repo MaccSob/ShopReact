@@ -5,7 +5,7 @@ const About = () => {
 
     return (
         <>
-            <h3>Gówno!</h3>
+            <h3>Trash!</h3>
         
         <section>S!</section>
         </>
