@@ -1,5 +1,5 @@
 img {
-    width: 100px;
+    width: 130px;
 }
 
 ul {
@@ -9,13 +9,25 @@ ul {
     position: relative;
  height: var(--header-height);
  margin: 1rem;
+ border-bottom: none;
+ transition: all .5s ease-in-out;
 }
+
 
 .nav__link {
     color: var(--title-color);
  font-weight: var(--font-semi-bold);
  transition: color 0.4s;
+
 }
 .nav__link:hover {
     color: var(--first-color);
    }
+   .nav__link:after {
+    content:"";
+    background: -webkit-linear-gradient(left, rgba(92, 7, 52, 1) 0%, rgba(134, 29, 84, 1) 12%, rgba(255, 93, 177, 1) 47%, rgb(212, 161, 20) 100%);
+    display: block;
+    width: 100px;
+    height: 1px;
+    opacity: 85%;
+}

@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar/Sidebar.jsx'
 import Home from './components/Main/Home.jsx'
 import Header from './components/Header/Header.jsx'
 import About from './components/About/About.jsx';
+import Browse from './components/Browse/Browse.jsx';
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
        <Routes>
        <Route path="/" element={<Home />} />
          <Route path="/About" element={<About />} />
+         <Route path="/Browse" element={<Browse />} />
        </Routes>
     </>
       </Router>
