@@ -3,10 +3,36 @@
     grid-template-columns: auto auto auto;
     padding: 10px;
   }
-  .grid > div {
+  .grid > div, .card {
     background-color: #f1f1f1;
     border: 1px solid black;
-    padding: 50px;
-    font-size: 30px;
+    padding: 35px;
+    font-size: 25px;
     text-align: center;
+  }
+  div > img {
+    width: 50%;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #58007a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 100px;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
   }

@@ -1,4 +1,4 @@
-import React from "react";
+
 import './Browse.css';
 
 const Browse = () => {
@@ -6,8 +6,18 @@ const Browse = () => {
     return (
         <>
             <div className="grid">
-                <div className="">1</div>
-                <div className="">2</div>
+                <div className="card">
+                <img src="/src/assets/grape.jpg" alt=""/>
+                    <h4>Grape Juice</h4>
+                    <p>Freshly made juice from delicious moldovian grapes!</p>
+                    <p><button>More</button></p>
+                    </div>
+                    <div className="card">
+                <img src="/src/assets/pineapple.jpg" alt="" />
+                    <h4>Pineapple Juice</h4>
+                    <p>Freshly made juice from delicious moldovian grapes!</p>
+                    <p><button>More</button></p>
+                    </div>
                 <div className="">3</div>
                 <div className="">4</div>
                 <div className="">5</div>
