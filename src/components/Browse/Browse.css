@@ -10,12 +10,18 @@
     font-size: 25px;
     text-align: center;
   }
-  div > img {
-    width: 50%;
-  }
+  .img-wrap-square {
+    aspect-ratio: 1/1;
+    
+    img {
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    }
+    }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 300px;
   margin: auto;
   text-align: center;
 

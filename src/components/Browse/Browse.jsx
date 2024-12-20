@@ -7,20 +7,45 @@ const Browse = () => {
         <>
             <div className="grid">
                 <div className="card">
+                    <div className="img-wrap-square">
                 <img src="/src/assets/grape.jpg" alt=""/>
+                </div>
                     <h4>Grape Juice</h4>
                     <p>Freshly made juice from delicious moldovian grapes!</p>
                     <p><button>More</button></p>
                     </div>
                     <div className="card">
+                    <div className="img-wrap-square">
                 <img src="/src/assets/pineapple.jpg" alt="" />
+                </div>
                     <h4>Pineapple Juice</h4>
-                    <p>Freshly made juice from delicious moldovian grapes!</p>
+                    <p>Recommended for males.</p>
                     <p><button>More</button></p>
                     </div>
-                <div className="">3</div>
-                <div className="">4</div>
-                <div className="">5</div>
+                    <div className="card">
+                    <div className="img-wrap-square">
+                <img src="/src/assets/dragonfruit.jpg" alt="" />
+                </div>
+                    <h4>Dragonfruit Juice</h4>
+                    <p>Dovakhiin's favourite.</p>
+                    <p><button>More</button></p>
+                    </div>
+                    <div className="card">
+                    <div className="img-wrap-square">
+                <img src="/src/assets/lemon.jpg" alt="" />
+                </div>
+                    <h4>Lemon Juice</h4>
+                    <p>Plenty of vitamin c right there!</p>
+                    <p><button>More</button></p>
+                    </div>
+                    <div className="card">
+                    <div className="img-wrap-square">
+                <img src="/src/assets/orange.jpg" alt="" />
+                </div>
+                    <h4>Orange Juice</h4>
+                    <p>Don't drink after brushing your teeth!</p>
+                    <p><button>More</button></p>
+                    </div>
                 <div className="">6</div>
                 <div className="">7</div>
                 <div className="">8</div>
