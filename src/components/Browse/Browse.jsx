@@ -46,8 +46,22 @@ const Browse = () => {
                     <p>Don't drink after brushing your teeth!</p>
                     <p><button>More</button></p>
                     </div>
-                <div className="">6</div>
-                <div className="">7</div>
+                    <div className="card">
+                    <div className="img-wrap-square">
+                <img src="/src/assets/carrot.jpg" alt="" />
+                </div>
+                    <h4>Carrot Juice</h4>
+                    <p>What's up doc?</p>
+                    <p><button>More</button></p>
+                    </div>
+                    <div className="card">
+                    <div className="img-wrap-square">
+                <img src="/src/assets/banana.jpg" alt="" />
+                </div>
+                    <h4>Banana Juice</h4>
+                    <p>Great source of potassium!</p>
+                    <p><button>More</button></p>
+                    </div>
                 <div className="">8</div>
                 <div className="">9</div>
             </div>
