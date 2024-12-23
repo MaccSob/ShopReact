@@ -1,11 +1,11 @@
 
 h3 {
-    margin: 10em;
+    margin: 45px;
 }
 
 
 
 
-section {
-    padding: 10em;
+section > p {
+    padding: 25px;
 }
