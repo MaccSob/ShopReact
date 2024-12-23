@@ -1,7 +1,11 @@
+
+
+
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+    gap: 15px;
   }
   .grid > div, .card {
     background-color: #f1f1f1;
@@ -25,7 +29,13 @@
   text-align: center;
 
   }
+  .card > h4 {
+    font: var(--second-font);
+    font-weight: 900;
+    font-size: 25px;
+  }
   .card button {
+
     border: none;
     outline: 0;
     padding: 10px;
