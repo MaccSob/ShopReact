@@ -8,25 +8,15 @@ const Contact = () => {
     const accordionData = [
         {
           title: 'Where can i find the receipt?',
-          content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-          laborum cupiditate possimus labore, hic temporibus velit dicta earum
-          suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-          voluptatem.`
+          content: `We're sending every receipt via e-mail..`
         },
         {
-          title: 'Section 2',
-          content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-          reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-          quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-          pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-          quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-          Repudiandae, mollitia id reprehenderit a ab odit!`
+          title: 'Will/When there be more juices to buy?',
+          content: `We plan on expanding our assortment in the upcoming year.`
         },
         {
-          title: 'Section 3',
-          content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-          quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-          dolor ut sequi minus iste? Quas?`
+          title: 'Are you shipping worldwide?',
+          content: `As of 2024, shipment is limited to Poland, Germany and Czechia.`
         }
       ];
 

@@ -1,4 +1,8 @@
-.accordion-title, .accordion-content {
-    font-size: 24px;
+.accordion-title{
+    font-size: 20px;
     color: black;
+}
+.accordion-content {
+    font-size: 18px;
+    color: grey;
 }
