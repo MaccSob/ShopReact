@@ -13,7 +13,7 @@ const About = () => {
 
         <h3>Why us?</h3>
 
-<p> We are making juices the old-fashioned way, there's no machinery, artificial sweeteners etc.   </p>
+<p> We are making juices the old-fashioned way, there's no machinery, artificial sweeteners involved.  </p>
 
 </section>
         </>
