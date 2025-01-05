@@ -25,6 +25,7 @@ const Contact = () => {
        <h2>Need help?  </h2>
        <h3>Choose a preferred a channel of communication and let us help you!</h3>
        <section>
+        <p></p>
         <h3>Frequently asked questions:</h3>
        <div className="accordion">
         {accordionData.map(({ title, content }) => (
