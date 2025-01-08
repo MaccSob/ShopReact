@@ -20,7 +20,7 @@ const Browse = () => {
                 </div>
                 <button className="button"><span>Add to cart </span></button>
                     <h4>Pineapple Juice</h4>
-                    <p>A men's favourite, for some reason.</p>
+                    <p>A men&apos;s favourite, for some reason.</p>
                     </div>
                     <div className="card">
                     <div className="img-wrap-square">
@@ -28,7 +28,7 @@ const Browse = () => {
                 </div>
                 <button className="button"><span>Add to cart </span></button>
                     <h4>Dragonfruit Juice</h4>
-                    <p>Dovakhiin's favourite.</p>
+                    <p>Dovakhiin&apos;s favourite.</p>
                     </div>
                     <div className="card">
                     <div className="img-wrap-square">
@@ -44,7 +44,7 @@ const Browse = () => {
                 </div>
                 <button className="button"><span>Add to cart </span></button>
                     <h4>Orange Juice</h4>
-                    <p>Don't drink after brushing your teeth!</p>
+                    <p>Don&apos;t drink after brushing your teeth!</p>
                     </div>
                     <div className="card">
                     <div className="img-wrap-square">
@@ -52,7 +52,7 @@ const Browse = () => {
                 </div>
                 <button className="button"><span>Add to cart </span></button>
                     <h4>Carrot Juice</h4>
-                    <p>What's up doc?</p>
+                    <p>What&apos;s up doc?</p>
                     </div>
                     <div className="card">
                     <div className="img-wrap-square">
