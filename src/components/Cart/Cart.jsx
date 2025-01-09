@@ -6,8 +6,8 @@ import { FaShoppingCart } from "react-icons/fa";
 const Cart = () => {
     return (
         <>
-            <FaShoppingCart />
 
+        <h2>No items in your cart.</h2>
         </>
     )
 }
