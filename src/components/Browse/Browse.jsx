@@ -1,8 +1,18 @@
 
 import './Browse.css';
 
-const Browse = () => {
+export default function Browse() {
 
+    const [products, setProducts] = useState([]);
+
+    async function getProducts() {
+        const response = await fetch('https://dummyjson.com/products') 
+        const data = await response.json() 
+        setProducts(data.products) // set the products in the state to the products
+      }
+      useEffect(() => {
+        getProducts()
+      }, [])
     return (
         <>
             <div className="grid">
@@ -92,4 +102,3 @@ const Browse = () => {
         </>
     )
 }
-export default Browse;
