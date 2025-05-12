@@ -84,3 +84,7 @@
     opacity: 1;
     right: 0;
   }
+  input {
+    width: 150px;
+    margin: 10px;
+  }
