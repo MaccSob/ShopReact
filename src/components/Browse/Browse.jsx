@@ -1,7 +1,7 @@
 
 import './Browse.css';
 
-export default function Browse() {
+const Browse = () => {
 
     const [products, setProducts] = useState([]);
 
@@ -102,3 +102,4 @@ export default function Browse() {
         </>
     )
 }
+export default Browse;

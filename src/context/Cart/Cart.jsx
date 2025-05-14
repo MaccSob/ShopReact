@@ -4,7 +4,14 @@ import { createContext, useState, useEffect } from 'react'
 import { FaShoppingCart } from "react-icons/fa";
 
 
+const [cartItems, setCartItems] = useState([])
+
+export const CartContext = createContext()
+
+export const CartProvider = ({ children }) => {
+}
 const Cart = () => {
+    
     return (
         <>
 
@@ -12,4 +19,7 @@ const Cart = () => {
         </>
     )
 }
+
+
+
 export default Cart;
