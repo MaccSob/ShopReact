@@ -1,8 +1,10 @@
 
 import './Browse.css';
+import { CartContext } from './context/Cart/Cart.jsx' 
 
 const Browse = () => {
 
+    const { cartItems, addToCart } = useContext(CartContext)
     const [products, setProducts] = useState([]);
 
     async function getProducts() {
