@@ -1,6 +1,7 @@
 
 import './Browse.css';
-import { CartContext } from './context/Cart/Cart.jsx' 
+import { CartContext } from '../../context/Cart/Cart';
+import { useContext, useEffect, useState } from 'react'
 
 const Browse = () => {
 
@@ -22,8 +23,8 @@ const Browse = () => {
                     <div className="img-wrap-square">
                 <img src="/src/assets/grape.jpg" alt=""/>
                 </div>
-                <button className="button"><span>Add to cart </span></button>
                 <input type="number" />
+                <button onClick={() => addToCart(product)} className='px-4 py-2 bg-gray-800 text-white text-xs font-bold uppercase rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700'>Add to cart</button>
                     <h4>Grape Juice</h4>
                     <p>Freshly made juice from delicious moldovian grapes!</p>
                     </div>
