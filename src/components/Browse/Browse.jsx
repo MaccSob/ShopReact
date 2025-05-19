@@ -1,6 +1,8 @@
 
 import './Browse.css';
-import { CartContext } from '../../context/Cart/Cart';
+import { CartContext } from '../../context/CartContext';
+
+
 import { useContext, useEffect, useState } from 'react'
 
 const Browse = () => {

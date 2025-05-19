@@ -1,5 +1,4 @@
 import React from "react";
-import './Cart.css';
 import { createContext, useState, useEffect } from 'react'
 import { FaShoppingCart } from "react-icons/fa";
 
