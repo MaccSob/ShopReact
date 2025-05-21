@@ -9,3 +9,11 @@
 .price {
  font-size: 20px;
 }
+.addtocart {
+  padding: 12px;
+  border-radius:12px;
+  background: -webkit-linear-gradient(left, rgba(92, 7, 52, 1) 0%, rgba(134, 29, 84, 1) 12%, rgba(255, 93, 177, 1) 47%, rgb(212, 161, 20) 100%);
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
