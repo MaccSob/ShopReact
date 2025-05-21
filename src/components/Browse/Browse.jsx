@@ -1,6 +1,7 @@
 import { useState, useEffect, useContext } from 'react'
 import { CartContext } from '../../context/CartContext';
 import Cart from '../Cart/Cart';
+import './Browse.css'
 
 
 export default function Browse() {
