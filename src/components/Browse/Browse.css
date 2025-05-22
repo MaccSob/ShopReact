@@ -16,4 +16,9 @@
   color: white;
   font-weight: 900;
   cursor: pointer;
+  transition: transform 300ms;
+}
+.addtocart:hover {
+  transform: translateY(8px);
+
 }

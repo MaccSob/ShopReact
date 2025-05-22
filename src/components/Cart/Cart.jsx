@@ -59,8 +59,6 @@ export default function Cart() {
     )
   }
 </div>
-<Cart showModal={showModal} toggle={toggle} />
-
       </>
     )
   }

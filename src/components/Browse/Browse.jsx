@@ -29,7 +29,11 @@ export default function Browse() {
                     <p className='price'>${product.price}</p>
                   </div>
                   <div className='buttoncontainer'>
-                    <button className='addtocart'>Add to cart</button>
+                    <button className='addtocart'  onClick={() => {
+                    addToCart(product)
+                  }
+                  }
+            >Add to cart</button>
                   </div>
                 </div>
               ))
