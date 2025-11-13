@@ -25,7 +25,7 @@ export default function Browse() {
                   <img src={product.thumbnail} alt={product.title} className='thumbnail' />
                   <div className='details'>
                     <h1 className='title'>{product.title}</h1>
-                    <p className='description'>{product.description.slice(0, 40)}...</p>
+                    <p className='description'>{product.description.slice(0, 100)}...</p>
                     <p className='price'>${product.price}</p>
                   </div>
                   <div className='buttoncontainer'>
